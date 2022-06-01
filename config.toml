@@ -1,6 +1,6 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
-baseURL = "https://629743fdeb46c900878e202f--cheery-churros-2d3d85.netlify.app"
+baseURL = "https://noah-ford.com"
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
@@ -16,7 +16,7 @@ enableRobotsTXT = true
 
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
-ignoreErrors = ["error-disable-taxonomy"]
+ignoreErrors = ["error-disable-taxonomy", "error-remote-getjson"]
 [permalinks]
   blog = "/:slug/"
   tags = "/blog/:slug"
@@ -38,7 +38,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # Another "title" :-). This one is used as the site_name on the Hugo's internal
   # opengraph structured data template.
   # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-  title = "Hugo ʕ•ᴥ•ʔ Bear"
+  title = "Data Stories and Other Thoughts"
 
   # This theme will, by default, inject a made-with-line at the bottom of the page.
   # You can turn it off, but we would really appreciate if you don’t :-).
@@ -49,7 +49,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # file. See [Hugo's Format function docs](https://gohugo.io/functions/format/)
   # for details. An example TOML config that uses [ISO
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
-  # dateFormat = "2006-01-02"
+#   dateFormat = "2006-01-02"
 
  [markup]
   [markup.goldmark.renderer]

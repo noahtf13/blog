@@ -1,11 +1,8 @@
 +++
-title = "About Me"
+title = "Resume"
 menu = "main"
 +++
-
-# About Me
-
-## Resume
+# Resume
 
 [Download](https://drive.google.com/uc?id=1GxesCAoMHx4mS09NrYeLU2C6uMjUBDRi&export=download)
 
