@@ -1,6 +1,6 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
-baseURL = "https://example.com"
+baseURL = "https://629743fdeb46c900878e202f--cheery-churros-2d3d85.netlify.app"
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'

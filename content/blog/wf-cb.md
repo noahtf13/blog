@@ -186,9 +186,7 @@ Apparently, blogs should be 1500-2000 words, so I should start wrapping this up,
 
 # Thanks for reading!
 
-With that, thank you for reading! I'd love to hear more from you in the comments. If you feel inclined, like/retweet my tweet tagging Dave Wasserman below.
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/Redistrict?ref_src=twsrc%5Etfw">@Redistrict</a> I expanded on your wonderful analysis, and calculated the distance from Whole Foods and Cracker Barrel across 30k points in the US (instead of just counties).<br><br>From there I observed the relationship between these distances and their partisan lean. <a href="https://t.co/X23c2UmfGh">pic.twitter.com/X23c2UmfGh</a></p>&mdash; Noah Ford (@noahtford) <a href="https://twitter.com/noahtford/status/1435699330720141324?ref_src=twsrc%5Etfw">September 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+With that, thank you for reading! I'd love to hear more from you in the comments. If you feel inclined, like/retweet my [tweet](https://twitter.com/noahtford/status/1435699330720141324) tagging Dave Wasserman below.
 
 Also let me know what I should blog about next below:
 
