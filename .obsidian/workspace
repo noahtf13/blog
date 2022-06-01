@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "8205b4e0f73ceedc",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3da658aeb73935a",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "39e346172e4ffecf",
+    "type": "split",
+    "children": [
+      {
+        "id": "e22814bfcf791ea9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dde34218011c2c3c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a490c7d7e3c729c8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e0cfc94cd46a885b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5bafc41e6455ee37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97cf6d32aad1c386",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c3da658aeb73935a",
+  "lastOpenFiles": [
+    "content/blog/Blog Version - Minneapolis Police Stop.md",
+    "content/blog/police-stop.md",
+    "content/blog/moving-to-hugo.md",
+    "content/blog/working-remote.md",
+    "content/blog/wf-cb.md",
+    "content/blog/_index.md",
+    "README.md",
+    "content/aboutme.md",
+    "content/_index.md"
+  ]
+}

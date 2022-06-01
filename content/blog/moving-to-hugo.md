@@ -3,11 +3,11 @@ title = "Why I moved from Hashnode to Hugo and Why Hashnode is Better"
 date = "2022-06-01"
 description = "Switching from Hashnode to Hugo"
 tags = [
-    "thoughts"
+    "Ramble"
 ]
 +++
-
-I recently moved my _one_ post to a blog that was more custom and managed by me using Hugo + the bear blog theme instead of the very awesome and easy-to-use platform Hashnode.  
+***
+I recently moved my _one_ post to a blog that was more custom and managed by me using Hugo + the bear blog theme instead of the very awesome and easy-to-use platform Hashnode.  This isn't a tutorial of how I moved from Hashnode but more of my thoughts on why I did it for three bad reasons. 
 
 # What are Hashnode, Bear Blog, and Hugo?
 ## Hashnode
@@ -42,6 +42,8 @@ This is the weirdest of the three reasons. Due to the insecurity I ooze when my 
 Hashnode has the ability to connect a repo but in my opinion the reason you use Hashnode is to setup a blog in 5 minutes, so using a repo seems to go against the very reason to be on that platform. 
 
 # Parting Thoughts
-This was more or less to reassure myself that it can be worthwhile to do things without a solid reason. I recently had 10 days off work and this fufilled my craving to get back to something that was somewhat challenging, very rewarding, and totally unnecessary as all pet projects are! 
+If it isnt clear from the post, I think Hashnode is the better dev-blog platform for most people since it is so simple. 
 
-I'd love to here from you at noahtylerford+blog@gmail.com and thanks for making it all the way through!
+This was more or less to reassure myself that it can be worthwhile to do things without a solid reason. I recently had 10 days off work and this fufilled my craving to get back to something that was somewhat challenging, very rewarding, and totally unnecessary!
+
+I'd love to hear from you at noahtylerford+blog@gmail.com and thanks for making it all the way through!

@@ -3,10 +3,10 @@ title = "Predicting Your Neighborhood Election Results Based on Cracker Barrel a
 date = "2021-09-08"
 description = "Election predictions based on proximity to a Whole Foods and Cracker Barrel"
 tags = [
-    "data"
+    "DataScience"
 ]
 +++
-
+***
 
 # Background
 ## Hasn't this been done before?
