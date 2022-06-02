@@ -1,6 +1,7 @@
 +++
 title = "Resume"
 menu = "main"
+draft = true
 +++
 # Resume
 
