@@ -7,8 +7,12 @@
         "id": "c3da658aeb73935a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "content/blog/police-stop.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/blog/police-stop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,8 +89,8 @@
   },
   "active": "c3da658aeb73935a",
   "lastOpenFiles": [
-    "content/blog/Blog Version - Minneapolis Police Stop.md",
     "content/blog/police-stop.md",
+    "content/blog/Blog Version - Minneapolis Police Stop.md",
     "content/blog/moving-to-hugo.md",
     "content/blog/working-remote.md",
     "content/blog/wf-cb.md",

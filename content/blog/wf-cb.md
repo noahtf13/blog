@@ -5,6 +5,7 @@ description = "Election predictions based on proximity to a Whole Foods and Crac
 tags = [
     "DataScience"
 ]
+slug = 'cracker-barrel-whole-foods-presidential-2020'
 +++
 ***
 
