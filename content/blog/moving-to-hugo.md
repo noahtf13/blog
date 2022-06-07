@@ -12,6 +12,7 @@ I recently moved my _one_ post to a blog that was more custom and managed by me 
 
 # What are Hashnode, Bear Blog, and Hugo?
 ## Hashnode
+[Hashnode](https://hashnode.com/) is a "blogging platform for developers" that 
 ## Bear Blog
 ## Hugo 
 
