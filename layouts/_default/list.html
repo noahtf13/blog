@@ -36,5 +36,8 @@
   {{ if .Data.Singular }}
   {{else}}
     {{ end }}
+  {{ if .Data.Singular }}
+    <a href="{{ .Permalink }}/index.xml"> RSS for This Tag Only</a>
+  {{end}}
 </content>
 {{ end }}
