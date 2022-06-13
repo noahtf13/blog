@@ -6,7 +6,7 @@ baseURL = "https://noah-ford.com"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "Data Stories and Other Musings"
+title = "📈 Data Stories and Other Musings 💭"
 author = "Noah Ford"
 copyright = "Copyright © 2022, Noah Ford"
 languageCode = "en-US"
