@@ -6,7 +6,7 @@ baseURL = "https://noah-ford.com"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "Noah's Blog"
+title = "Data Stories and Other Musings"
 author = "Noah Ford"
 copyright = "Copyright © 2022, Noah Ford"
 languageCode = "en-US"
@@ -23,7 +23,7 @@ ignoreErrors = ["error-disable-taxonomy", "error-remote-getjson"]
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
-  description = "Noah Ford: Data Stories and Other Thoughts"
+  description = "Noah Ford: Data Stories and Other Musings"
 
   # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
   # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.

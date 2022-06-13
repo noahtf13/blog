@@ -3,7 +3,7 @@ title = "Blacks are 2X as Likely to be Searched in a Minneapolis Police Stop"
 date = "2022-06-01"
 description = "Analyzing years of Minneapolis Police Stop Data"
 tags = [
-    "DataScience",
+    "DataStories",
     "GeorgiaTech"
 ]
 draft = true

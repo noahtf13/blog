@@ -3,7 +3,7 @@ title = "Predicting Your Neighborhood Election Results Based on Cracker Barrel a
 date = "2021-09-08"
 description = "Election predictions based on proximity to a Whole Foods and Cracker Barrel"
 tags = [
-    "DataScience"
+    "DataStories"
 ]
 slug = 'cracker-barrel-whole-foods-presidential-2020'
 +++
