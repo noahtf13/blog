@@ -3,9 +3,8 @@ title = "Why I moved from Hashnode to Hugo and Why Hashnode is Better"
 date = "2022-06-01"
 description = "Switching from Hashnode to Hugo"
 tags = [
-    "Ramble"
+    "Musings", "Hugo"
 ]
-draft = true
 +++
 I recently moved [my _one_ post](https://noah-ford.com/cracker-barrel-whole-foods-presidential-2020/) to a blog that was more custom and managed by me using Hugo + the [Bear Blog theme](https://github.com/janraasch/hugo-bearblog), instead of the very awesome and easy-to-use platform [Hashnode](https://hashnode.com/).  This isn't a tutorial of how I moved from Hashnode, but more of my thoughts on why I did it for a few bad reasons. 
 
