@@ -1,6 +1,6 @@
 +++
 title = "Why I moved from Hashnode to Hugo and Why Hashnode is Better"
-date = "2022-06-01"
+date = "2022-06-12"
 description = "Switching from Hashnode to Hugo"
 tags = [
     "Musings", "Hugo"
