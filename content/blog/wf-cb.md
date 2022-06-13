@@ -7,8 +7,6 @@ tags = [
 ]
 slug = 'cracker-barrel-whole-foods-presidential-2020'
 +++
-***
-
 # Background
 ## Hasn't this been done before?
 

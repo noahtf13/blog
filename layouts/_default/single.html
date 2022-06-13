@@ -8,10 +8,13 @@
     </time>
   </i>
 </p>
+<hr>
 {{ end }}{{ end }}
 <content>
   {{ .Content }}
 </content>
+<hr>
+<h2>Tags</h2>
 <p>
   {{ range (.GetTerms "tags") }}
   <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
