@@ -6,6 +6,7 @@ tags = [
     "Musings"
 ]
 slug = 'why-i-moved-from-hashnode-to-hugo-and-why-hashnode-is-better'
+images = ['images/hugo-blog-og.jpeg']
 +++
 I recently moved [my _one_ post](https://noah-ford.com/cracker-barrel-whole-foods-presidential-2020/) to a blog that was more custom and managed by me using [Hugo](https://gohugo.io/) + the [Bear Blog theme](https://github.com/janraasch/hugo-bearblog), instead of the very awesome and easy-to-use platform [Hashnode](https://hashnode.com/).  This isn't a tutorial of how I moved from Hashnode, but more of my thoughts on why I did it for a few bad reasons. 
 
