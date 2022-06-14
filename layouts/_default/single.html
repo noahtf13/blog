@@ -8,9 +8,10 @@
     </time>
   </i>
 </p>
-{{if .Params.title_image}}
-  <img src={{.Params.title_image}} width='100%'>
-{{end}}
+{{if .Params.images}}{{if .Params.insertPageOG}}
+  {{$mainImage := index (.Params.images) 0 }}
+  <img src={{$mainImage}} width="100%" style="margin-bottom: 15px;">
+{{end}}{{end}}
 <hr>
 {{ end }}{{ end }}
 <content>
