@@ -2,11 +2,22 @@
 <meta name="title" content="{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}" />
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta name="keywords" content="{{ if .IsPage}}{{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}{{ else }}{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ printf "%s," $term }}{{ end }}{{ end }}{{ end }}" />
-<meta property="og:image" content="http://noah-ford.com{{ .Params.og_image | relURL }}"/>
-<meta property="og:image:secure_url" content="{{ .Params.og_image | absURL }}"/>
 
 <!-- Open Graph / Facebook -->
-{{ template "_internal/opengraph.html" . }}
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ if ne .URL "/" }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }}"/>
+  <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
+  <meta property="og:site_name" content="{{ .Site.Title }}"/>
+  <meta property="og:url" content="{{ .Permalink }}"/>
+  <meta property="og:locale" content="en">
+    {{ if .Params.og_image }}
+  <meta property="og:image" content="http://noah-ford.com{{ .Params.og_image | relURL }}"/>
+  <meta property="og:image:secure_url" content="{{ .Params.og_image | absURL }}"/>
+  {{ else }}
+  <meta property="og:image" content="http://noah-ford.com{{ .Site.Params.og_image | relURL }}"/>
+  <meta property="og:image:secure_url" content="{{ .Site.Params.og_image | absURL }}"/>
+  {{ end }}
+  <meta property="og:type" content="website"/>
 
 <!-- Twitter -->
 {{ template "_internal/twitter_cards.html" . }}
