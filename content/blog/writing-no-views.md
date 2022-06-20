@@ -1,12 +1,11 @@
 +++
 title = "A Blog with No Views is a Journal"
 date = "2022-06-20"
-description = "Why blogging is a healthier medium of expression than social media due to the increased vulnerability and nuance"
+description = "Why blogging is worth it and a healthier medium of expression than social media due to the increased vulnerability and nuance"
 tags = [
     "Musings"
 ]
 +++
-
 I have views tracked by Cloudflare on this site (no cookies and GDPR-compliant), I post to Hacker News in the hopes of getting more, but on some level, I've come to understand that blogging without an audience is a journal. Writing helps to purge ideas, worries, and frustrations away. Without it, the only home for your thoughts is in your head, and this can become full of clutter. Cleaning up my physical and mental space leaves room for my creative energy in and out of work to explore.
 
 ![Blogging at Bar](/images/blogging_from_bar.jpeg "A space away from my home office free of clutter. Also, don't get a magic mouse, it charges upside down, and the bar is still in progress.")
@@ -44,5 +43,7 @@ This morning when I first started to write this, I knew for some reason I would 
 In a meta sense, the very act of writing this blog made me feel grounded on why I do this, it helped to untangle the knots that were in the rope of the thesis I put forward. This untangling of knots in my thoughts is what meditation and exercise do for me as well, and it would be hard to argue against the benefits of those. 
 
 So if this blog is currently before your eyes, that's great! If not, I already feel better releasing these thoughts into the void. 
+
+[Discuss on HN](https://news.ycombinator.com/item?id=31813222)
 
 [^1]: https://www.nature.com/articles/s41598-020-58645-9
