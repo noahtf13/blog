@@ -21,10 +21,11 @@ ignoreErrors = ["error-disable-taxonomy", "error-remote-getjson"]
   blog = "/:slug/"
   tags = "/blog/:slug"
 
+og_image = '/images/test-og.jpeg'
+
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
   description = "Data Stories and Other Musings"
-  og_image = '/images/test-og.jpeg'
 
   # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
   # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
@@ -38,7 +39,7 @@ ignoreErrors = ["error-disable-taxonomy", "error-remote-getjson"]
   # Another "title" :-). This one is used as the site_name on the Hugo's internal
   # opengraph structured data template.
   # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-  title = "Data Stories and Other Musings"
+  title = "Noah's Blog"
 
   # This theme will, by default, inject a made-with-line at the bottom of the page.
   # You can turn it off, but we would really appreciate if you don’t :-).
