@@ -1,0 +1,7 @@
+<a href="{{ "/" | relURL }}" class="title">
+  <h1 style="text-align: center;">
+      {{ .Site.Title }}
+  </h1>
+  <h2 style="text-align: center;">{{.Site.Params.Description}}</h2>
+</a>
+<nav style ="text-align: center">{{- partial "nav.html" . -}}</nav>

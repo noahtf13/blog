@@ -6,7 +6,7 @@
     <a href="{{ "/blog" | relURL }}">Remove filter</a>
   </small>
   {{ end }}
-  <h3>Tags</h3>
+  <h2>Tags</h2>
   <small>
     <div>
       {{ range .Site.Taxonomies.tags }}
@@ -14,7 +14,7 @@
       {{ end }}
     </div>
   </small>
-  <h3>Posts</h3>
+  <h2>Posts</h2>
   <ul class="blog-posts">
     {{ range .Pages }}
     <li>
