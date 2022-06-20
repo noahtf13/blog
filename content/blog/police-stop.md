@@ -1,14 +1,16 @@
 +++
-title = "Blacks are 2X as Likely to be Searched in a Minneapolis Police Stop"
-date = "2022-06-01"
-description = "Analyzing years of Minneapolis Police Stop Data"
+title = "An Analysis of Police Stops and Race in Minneapolis"
+date = "2022-06-19"
+description = "An analysis of 185k police stops in Minneapolis between Nov '16 and Nov '21"
 tags = [
     "DataStories",
     "GeorgiaTech"
 ]
-draft = true
+images = ['/images/police_lights.jpeg']
+insertPageOG = false
+slug = 'police-stops'
 +++
-*This is the first post in my Georgia Tech Body of Work series, which is where I will post the blog-like assignments that I had to write as a part of my degree. Much of the technical work of the original writeup has been removed to better cater to a broader audience.*
+*This is the first post in my Georgia Tech [series](/blog/georgiatech), which is where I will post the blog-like assignments that I had to write as a part of my coursework. Much of the technical work of the original writeup has been removed to better cater to a broader audience.*
 ***
 
 # Introduction
@@ -25,7 +27,9 @@ and most shockingly:
 
 While search rates are close to 2X for black individuals as white, I wanted to dig deeper and see if these disparities existed when controlling for other factors. At first look, there are strong disparities between treatment across races during traffic stops but what about income, time of day, and income of the neighborhood? The more I can control for these in my analysis, the sturdier any claims made will be.
 
-**Note: You may notice that my search rates are higher than the investigation found.  I don't currently know the source of the difference, but it may be a difference in methods, data source, or both. My current theory is that a `null` value in the `personSearch` and `vehicleSearch` columns was interpreted as no search occurring by the MDOH. I decided to ignore these values instead. If this theory can be confirmed I will change my analysis.**
+***
+**Note: You may notice that my search rates are higher than the investigation found.  I don't currently know the source of the difference, but it may be a difference in methods, data source, or both. My current theory is that a `null` value in the `personSearch` and `vehicleSearch` columns was interpreted as no search occurring by the MDOH. I decided to ignore these values instead. I contacted MDOH and If this theory can be confirmed I will change my analysis and add an edit here.**
+***
 
 # Data Sources
 ## Open Minneapolis Police Stop Data
@@ -65,7 +69,7 @@ First, I wanted to observe the relationship between search rates and race over t
 ### Precinct
 ![precinct_map](https://lh4.googleusercontent.com/d5aBqsM-8bEKPWPU-sMF-4Yv-7pJ-5ZUzbz6lj-1QDv31uUb8pJyonniYbGdiRWfcNzZlEg74JiQEeR1aD_zMjEiTj0sz5tHfVdBHkLrfI7UnuVGDdgao0MD8etXRoDu5CDEypIVhq8 "Map of the 5 Precincts within Minneapolis")
 
-While race looks to be a component in understanding search rates, it is also worth while to understand the differences within the police districts in Minneapolis, since they may have different methods of policing. 
+While race looks to be a component in understanding search rates, it is also worthwhile to understand the differences within the police districts in Minneapolis, since they may have different methods of policing. 
 
 Below is a map of the five different precincts within Minneapolis and their rates of search of Black persons by Date. There were differences in search rates by precinct before the two events on the graph, but all precincts' search rates stayed more or less the same. The one exception was Precinct 4 in Northwest Minneapolis. After the two events, Precinct 4 became the precinct with the highest search rate, at around 37.5%.
 
@@ -86,7 +90,7 @@ Lastly, the cross-sectional relationship of race, income, and date was explored.
 ![race_income](https://lh6.googleusercontent.com/boZH5F199z6CDAtv9qIjzRnWFE5XS99dW-OCyaddSYhUg4RnFO1YT9Sq0Ah8w45QLSgyLDBDGtbtZYCRyf_s8PkBnmbxS67euO6a2SwBPptAy6u0HndyDCWk_MbvhXkSMHoGNN1tvQ)
 
 ## Machine Learning Results & Metrics Interpretation
-_The original audience of my Georgia Tech Peers had an understanding of what ROC AUC was. To learn more about this useful and common machine learning metrics, see [here](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)._
+_The original audience of my Georgia Tech Peers had an understanding of what ROC AUC was. To learn more about this useful and common machine learning metrics, see [here](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc). If you aren't interested in the technical aspects, skip to [here](#so-what-do-the-shap-scores-tell-us)_ 
 ### Logistic Regression
 First, a Logistic Regression was run, and the model performed similarly to randomly guessing if someone was pulled over or not, given its ROC AUC of 56%. 
 ### Random Forest
@@ -102,17 +106,19 @@ The fact that this was the most powerful model is unsurprising since I used an [
 Let's look at what features were the most important in our most performant model, XGBoost.
 
 ### XGBoost Shap Values
-So what variables are most important and helpful in discerning whether or not a search will be conducted during a police stop? To better understand the answer to this question, I will first need to understand what "Shap Values" are. 
+So what variables are most important and helpful in discerning whether a search will be conducted during a police stop? To better understand the answer to this question, I will first need to understand what "Shap Values" are. 
 
-Since XGBoost and any other tree-based models are nonlinear in nature, I am unable to make interpretations such as "those of the black race are 3X as likely to be searched in a stop, holding all other variables equal". 
+Since XGBoost and any other tree-based models are nonlinear, I am unable to make interpretations such as "those of the black race are 3X as likely to be searched in a stop, holding all other variables equal". 
 
-This is where shap scores come in. Each dot (there are 150k+ of them) in each row is the log odds or $e^{(log\ odds)} = odds$, which I will discuss later) of the variable for that stop. As for the color of the dot, red denotes if the value is high and blue is low. So rows with a `race_Black` of 1 (meaning the person stopped was black) have higher shap values
+This is where shap scores come in. Each dot (there are 150k+ of them) in each row is the log odds or $e^{(log\ odds)} = odds$, which I will discuss later) of the variable for that stop. As for the color of the dot, red denotes if the value is high and blue is low. For example, rows with a `race_Black` of 1 (meaning the person stopped was black) have higher shap values
+ 
+#### So What Do the Shap Scores Tell Us?
 
 If I picked a dot that was 1.0 for `race_black`, this means that for this specific stop (a stop in a certain precinct, time of day, etc) that being black made the person (or their vehicle) e^1 times (2.72X) as likely to be searched. 
 
-This graph allows us to see what variables influence the model the most and in what way. **From the graph it is quite clear that the race of the individual, their gender, what time it is, and the income of the neighborhood they are in are very influential when it comes to being searched.**
+This graph allows us to see what variables influence the model the most and in what way. **From the graph it is clear that the race of the individual, their gender, what time it is, and the income of the neighborhood they are in are very influential when it comes to being searched.**
 
-A couple of nonlinear effects stand out. While all other variables have a clear relationship with more leading to a greater/less chance of being pulled over, `part_day_overnight` (time of day = overnight) and `income_25` (income of those over 25) especially have more complex relationships with being searched or not since red and value values don't necessarily denote higher or lower shap values.
+A couple of nonlinear effects stand out. Many variables have a clear relationship with leading to a greater/less chance of being pulled over. `part_day_overnight` (time of day = overnight) and `income_25` (income of those over 25) especially have more complex relationships with being searched or not since red and value values don't necessarily denote higher or lower shap values.
 
 In a future analysis exploring what other variables cause income and time of day to either have a positive or negative influence would be of interest. It could be the case that certain races are more likely to be searched at night, while others are not affected by the time of day.
 
@@ -121,11 +127,11 @@ In a future analysis exploring what other variables cause income and time of day
 # Conclusions
 Overall, I am pleased that I was able to develop a model that was rather predictive for this assignment, but what that means for the outside world is muddied. If a few simple features can easily predict whether or not someone will be searched, it may be the case that there is unfair bias against the features that I saw lead to more searches such as being Black or Native American, Male, and in Precinct 4. 
 
-That being said, for the model to be properly interpreted as a sign of police bias against certain groups and situations, I would likely need to control for more aspects of the stop. Important aspects such as the criminal record for the stop and reason for suspicion/search (was it subjective in nature or for something more objective?) would give more insight into if there was a justified reason for a search or not. 
+That being said, for the model to be properly interpreted as a sign of police bias against certain groups and situations, I would likely need to control for more aspects of the stop. Aspects such as the criminal record for the stop and reason for suspicion/search (was it subjective or for something more objective?) would give more insight into if there was a justified reason for a search or not. 
 
 Additionally, to improve the model's performance, the racial composition of the neighborhood the stop was in would help understand the effect of being pulled over in a primarily different neighborhood or the same race as your own. 
 
-This and many other additional features would be interesting to explore, but I'm pleased with the performance of the models. I plan on sharing this work with my city's council to help address the question of police bias in the city of Minneapolis.
+Neighborhood racial composition and many other additional features would be interesting to explore, but I'm pleased with the performance of the models. I plan on sharing this work with my city's council to help address the question of police bias in Minneapolis.
 
 [^1]: Page 5 -  [Investigation into the City of Minneapolis and the
 Minneapolis Police Department](https://mn.gov/mdhr/assets/Investigation%20into%20the%20City%20of%20Minneapolis%20and%20the%20Minneapolis%20Police%20Department_tcm1061-526417.pdf)

@@ -5,7 +5,7 @@
   <i>
     <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
       {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
-    </time>
+    </time> | Reading Time: {{.ReadingTime}} Minutes
   </i>
 </p>
 {{if .Params.images}}{{if .Params.insertPageOG}}
@@ -15,8 +15,20 @@
 <hr>
 {{ end }}{{ end }}
 <content>
+  {{.TableOfContents}}
+  <hr>
   {{ .Content }}
 </content>
+<hr>
+I hope you enjoyed reading this, and if so, you can add this blog’s <a href="{{.Site.Params.BaseUrl}}/index.xml">RSS feed</a>
+to the reader of your choice or subscribe to my <a href="https://buttondown.email/noah_ford">newsletter</a> below.
+<br><br>
+<iframe
+  scrolling="no"
+  style="width:100%!important;height:220px #ccc solid !important"
+  src="https://buttondown.email/noah_ford?as_embed=true"
+  frameborder="0"
+></iframe>
 <hr>
 <h2>Tags</h2>
 <p>

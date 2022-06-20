@@ -7,7 +7,6 @@ tags = [
 ]
 slug = 'why-i-moved-from-hashnode-to-hugo-and-why-hashnode-is-better'
 images = ['/images/hugo-blog-og.jpeg']
-insertPageOG = false
 +++
 
 I recently moved [my _one_ post](https://noah-ford.com/cracker-barrel-whole-foods-presidential-2020/) to a blog that was more custom and managed by me using [Hugo](https://gohugo.io/) + the [Bear Blog theme](https://github.com/janraasch/hugo-bearblog), instead of the very awesome and easy-to-use platform [Hashnode](https://hashnode.com/).  This isn't a tutorial of how I moved from Hashnode, but more of my thoughts on why I did it for a few bad reasons. 
@@ -64,9 +63,7 @@ The  above is the weirdest of the four reasons. Due to the insecurity that oozes
 # Parting Thoughts
 If it isn't clear from the post, I think Hashnode and Bear Blog are better dev-blog platforms for most cases due to their easy-to-setup and good-looking blogs. 
 
-I think my case was unique since this was more or less an adventure to reassure myself that it can be worthwhile to do things without a solid reason. Recently, I had ten days off work, and this fulfilled my craving to get back to something that was somewhat challenging, very rewarding, and unnecessary! 
-
-I hope you enjoyed reading this,  and if so, you can add this blog's [RSS feed](http://noah-ford.com/index.xml) to the reader of your choice.
+I think my case was unique since this was more or less an adventure to reassure myself that it can be worthwhile to do things without a solid reason. Recently, I had ten days off work, and this fulfilled my craving to get back to something that was somewhat challenging, very rewarding, and unnecessary!
 
 [^1]: https://en.wikipedia.org/wiki/Hugo_(software)
 [^2]: https://news.ycombinator.com/item?id=21978306
