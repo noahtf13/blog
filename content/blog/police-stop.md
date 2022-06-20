@@ -133,6 +133,9 @@ Additionally, to improve the model's performance, the racial composition of the 
 
 Neighborhood racial composition and many other additional features would be interesting to explore, but I'm pleased with the performance of the models. I plan on sharing this work with my city's council to help address the question of police bias in Minneapolis.
 
+***
+[Discuss on HN](https://news.ycombinator.com/item?id=31805666)
+
 [^1]: Page 5 -  [Investigation into the City of Minneapolis and the
 Minneapolis Police Department](https://mn.gov/mdhr/assets/Investigation%20into%20the%20City%20of%20Minneapolis%20and%20the%20Minneapolis%20Police%20Department_tcm1061-526417.pdf)
 
