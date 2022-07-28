@@ -13,7 +13,7 @@ The other day, on a regular virtual lunch that I irregularly show up to, a previ
 
 I was warmed by the compliment from a former colleague that I respect and look up to, but it does make me a bit uneasy that I have/get to pat myself on the back in this blog. 
 
-# What  or Who The Heck is a Sponge?
+# What or Who The Heck is a Sponge?
 Just because someone can pick things up quickly, doesn't mean they can ace your interview that doesn't involve real world questions[^1].  A sponge comes to the conclusion that they know they do not know something, doesn't get bogged down by this fact, and figures out where to point their compass so they can fill their missing piece of knowledge quickly.
 
 ## Using Git as an Example
