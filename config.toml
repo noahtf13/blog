@@ -8,7 +8,7 @@ summaryLength = 100
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "📈 Noah's Blog 💭"
+title = "Noah's Blog"
 author = "Noah Ford"
 copyright = "Copyright © 2022, Noah Ford"
 languageCode = "en-US"
