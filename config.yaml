@@ -125,11 +125,11 @@ menu:
   main:
     - identifier: search
       name: search
-      url: /search/
+      url: /search
       weight: 10
     - identifier: tags
       name: tags
-      url: /tags/
+      url: /tags
       weight: 20
     - identifier: rss
       name: rss 
