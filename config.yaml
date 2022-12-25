@@ -1,4 +1,3 @@
-baseURL: "https://noah-ford.com/"
 title: Noah Ford's Blog
 paginate: 3
 theme: PaperMod
@@ -53,7 +52,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Noah's Blog - Test"
+    text: "Noah's Blog - test"
     # icon: /apple-touch-icon.png
     # iconHeight: 35
 
@@ -125,11 +124,11 @@ menu:
   main:
     - identifier: search
       name: search
-      url: /search
+      url: /search/
       weight: 10
     - identifier: tags
       name: tags
-      url: /tags
+      url: /tags/
       weight: 20
     - identifier: rss
       name: rss 
