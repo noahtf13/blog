@@ -1,0 +1,151 @@
+baseURL: "https://noah-ford.com/"
+title: Noah Ford's Blog
+paginate: 3
+theme: PaperMod
+
+ignoreErrors: ["error-remote-getjson"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Noah's Blog
+  description: "Musings and Data Stories"
+  keywords: [Data Science, Musings, Blog]
+  author: "Noah Ford"
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Noah's Blog - Test"
+    # icon: /apple-touch-icon.png
+    # iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: >
+      My [day job](https://www.linkedin.com/in/noah-t-ford/) 
+      involves telling stories with data at Onaroll 
+      [(we're hiring by the way)](https://jobs.lever.co/onaroll) 
+      but my goal with this blog is to showcase my projects 
+      and writing that I pursue out of love for creating something new. 
+      I love to use data to tell a story about 
+      [really any topic](https://noah-ford.com/cracker-barrel-whole-foods-presidential-2020/). 
+      I'd love to hear from you at noahtylerford@gmail.com 
+      or at my [Calendly](https://calendly.com/noah_ford/30-minute-meeting).
+
+  socialIcons:
+    - name: rss
+      url: "/index.xml"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/noah-t-ford/"
+    - name: github
+      url: "https://github.com/noahtf13"
+    - name: twitter
+      url: "https://twitter.com/noahtford"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/4829158/noahtf13"
+    - name: goodreads
+      url: "https://www.goodreads.com/user/show/28414354-noah"
+
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/noahtf13/blog"
+    Text: "Suggest Changes via Pull Request" # edit text
+    appendFilePath: False # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: rss
+      name: rss 
+      url: /index.xml
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+outputs:
+  home:
+    - HTML
+    - RSS
