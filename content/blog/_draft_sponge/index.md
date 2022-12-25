@@ -6,6 +6,7 @@ tags = [
     "Musings",
     "Interviewing"
 ]
+draft = true
 +++
 
 The other day, on a regular virtual lunch that I irregularly show up to, a previous colleague of mine called me a "sponge" in the sense that I pick things up easily. They stated they were trying to hire a sponge of their own, and I thought the answer to that question would work nicely for a blog!
