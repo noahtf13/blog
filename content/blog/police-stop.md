@@ -67,7 +67,7 @@ First, I wanted to observe the relationship between search rates and race over t
 ![race_traffic_stop_minneapolis.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651435850432/gwP5NF33o.png)
 
 ### Precinct
-![precinct_map](https://lh4.googleusercontent.com/d5aBqsM-8bEKPWPU-sMF-4Yv-7pJ-5ZUzbz6lj-1QDv31uUb8pJyonniYbGdiRWfcNzZlEg74JiQEeR1aD_zMjEiTj0sz5tHfVdBHkLrfI7UnuVGDdgao0MD8etXRoDu5CDEypIVhq8 "Map of the 5 Precincts within Minneapolis")
+![maps.png](https://lh4.googleusercontent.com/d5aBqsM-8bEKPWPU-sMF-4Yv-7pJ-5ZUzbz6lj-1QDv31uUb8pJyonniYbGdiRWfcNzZlEg74JiQEeR1aD_zMjEiTj0sz5tHfVdBHkLrfI7UnuVGDdgao0MD8etXRoDu5CDEypIVhq8)
 
 While race looks to be a component in understanding search rates, it is also worthwhile to understand the differences within the police districts in Minneapolis, since they may have different methods of policing. 
 
@@ -87,7 +87,7 @@ Before 2019, the "later" in the day, the more likely someone stopped was to be s
 ### Race & Income
 Lastly, the cross-sectional relationship of race, income, and date was explored. For all races as income increased in the local Census Tract of the stop, search rates decreased in a somewhat linear fashion. 
 
-![race_income](https://lh6.googleusercontent.com/boZH5F199z6CDAtv9qIjzRnWFE5XS99dW-OCyaddSYhUg4RnFO1YT9Sq0Ah8w45QLSgyLDBDGtbtZYCRyf_s8PkBnmbxS67euO6a2SwBPptAy6u0HndyDCWk_MbvhXkSMHoGNN1tvQ)
+![](https://lh6.googleusercontent.com/boZH5F199z6CDAtv9qIjzRnWFE5XS99dW-OCyaddSYhUg4RnFO1YT9Sq0Ah8w45QLSgyLDBDGtbtZYCRyf_s8PkBnmbxS67euO6a2SwBPptAy6u0HndyDCWk_MbvhXkSMHoGNN1tvQ)
 
 ## Machine Learning Results & Metrics Interpretation
 _The original audience of my Georgia Tech Peers had an understanding of what ROC AUC was. To learn more about this useful and common machine learning metrics, see [here](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc). If you aren't interested in the technical aspects, skip to [here](#so-what-do-the-shap-scores-tell-us)_ 
