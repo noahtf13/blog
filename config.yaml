@@ -76,19 +76,17 @@ params:
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: >
-      My [day job](https://www.linkedin.com/in/noah-t-ford/) 
-      involves telling stories with data at Onaroll 
-      [(we're hiring by the way)](https://jobs.lever.co/onaroll) 
+      My day job involves telling stories with data at Onaroll,
       but my goal with this blog is to showcase my projects 
       and writing that I pursue out of love for creating something new. 
-      I love to use data to tell a story about 
-      [really any topic](https://noah-ford.com/cracker-barrel-whole-foods-presidential-2020/). 
-      I'd love to hear from you at noahtylerford@gmail.com 
-      or at my [Calendly](https://calendly.com/noah_ford/30-minute-meeting).
+      My passion is using data to tell a story about really any topic.
+      I'd love to hear from you at one of the many places to reach me below!
 
   socialIcons:
     - name: rss
-      url: "noah-ford.com/index.xml"
+      url: "/index.xml"
+    - name: email
+      url: "mailto:noahtylerford@gmail.com"
     - name: linkedin
       url: "https://www.linkedin.com/in/noah-t-ford/"
     - name: github
