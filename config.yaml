@@ -1,3 +1,4 @@
+baseURL: "https://noah-ford.com/"
 title: Noah Ford's Blog
 paginate: 3
 theme: PaperMod
@@ -87,7 +88,7 @@ params:
 
   socialIcons:
     - name: rss
-      url: "/index.xml"
+      url: "noah-ford.com/index.xml"
     - name: linkedin
       url: "https://www.linkedin.com/in/noah-t-ford/"
     - name: github
@@ -132,7 +133,7 @@ menu:
       weight: 20
     - identifier: rss
       name: rss 
-      url: /index.xml
+      url: index.xml
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -147,4 +148,5 @@ markup:
 outputs:
   home:
     - HTML
+    - JSON 
     - RSS
