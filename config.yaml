@@ -21,8 +21,7 @@ params:
   description: "Musings and Data Stories"
   keywords: [Data Science, Musings, Blog]
   author: "Noah Ford"
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["/images/hugo-blog-og.jpeg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -99,9 +98,9 @@ params:
 
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   editPost:
     URL: "https://github.com/noahtf13/blog"

@@ -1,15 +1,17 @@
-+++
-title = "An Analysis of Police Stops and Race in Minneapolis"
-date = "2022-06-19"
-description = "An analysis of 185k police stops in Minneapolis between Nov '16 and Nov '21"
-tags = [
+---
+title: "An Analysis of Police Stops and Race in Minneapolis"
+date: "2022-06-19"
+description: "An analysis of 185k police stops in Minneapolis between Nov '16 and Nov '21"
+tags: [
     "DataStories",
     "GeorgiaTech"
 ]
-images = ['/images/police_lights.jpeg']
-insertPageOG = false
-slug = 'police-stops'
-+++
+slug: 'police-stops'
+cover:
+    image:  "/images/police_lights.jpeg"
+    alt: "police lights"
+    relative: true
+---
 *This is the first post in my Georgia Tech [series](/blog/georgiatech), which is where I will post the blog-like assignments that I had to write as a part of my coursework. Much of the technical work of the original writeup has been removed to better cater to a broader audience.*
 ***
 
