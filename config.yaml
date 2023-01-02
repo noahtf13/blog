@@ -20,9 +20,8 @@ params:
   title: Noah's Blog
   description: "Musings and Data Stories"
   keywords: [Data Science, Musings, Blog]
-  author: "Noah Ford"
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  # author: "Noah Ford"
+  images: ["/images/hugo-blog-og.jpeg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -32,7 +31,7 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: false
   disableSpecial1stPost: true
@@ -53,8 +52,8 @@ params:
 
   label:
     text: "Noah's Blog"
-    # icon: /apple-touch-icon.png
-    # iconHeight: 35
+    # icon: ""
+    iconHeight: 30
 
   # profile-mode
   profileMode:
@@ -73,7 +72,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "Hi, I'm Noah Ford \U0001F44B"
     Content: >
       My day job involves telling stories with data at Onaroll,
       but my goal with this blog is to showcase my projects 
@@ -99,9 +98,9 @@ params:
 
 
   cover:
-    hidden: true # hide everywhere but not in structured data
+    hidden: false # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hiddenInSingle: false # hide on single page
 
   editPost:
     URL: "https://github.com/noahtf13/blog"

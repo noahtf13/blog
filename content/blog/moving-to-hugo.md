@@ -13,7 +13,7 @@ images = ['/images/hugo-blog-og.jpeg']
 
 ---
 
-I recently moved [my _one_ post](https://noah-ford.com/cracker-barrel-whole-foods-presidential-2020/) to a blog that was more custom and managed by me using [Hugo](https://gohugo.io/) + the [Bear Blog theme](https://github.com/janraasch/hugo-bearblog), instead of the very awesome and easy-to-use platform [Hashnode](https://hashnode.com/).  This isn't a tutorial of how I moved from Hashnode, but more of my thoughts on why I did it for a few bad reasons. 
+I recently moved [my _one_ post](/blog/cracker-barrel-whole-foods-presidential-2020) to a blog that was more custom and managed by me using [Hugo](https://gohugo.io/) + the [Bear Blog theme](https://github.com/janraasch/hugo-bearblog), instead of the very awesome and easy-to-use platform [Hashnode](https://hashnode.com/).  This isn't a tutorial of how I moved from Hashnode, but more of my thoughts on why I did it for a few bad reasons. 
 
 # What are Hashnode, Bear Blog, and Hugo?
 Each is a different blogging platform that is popular with tech/HN types, but excels at something different. I originally hosted my blog on Hashnode but decided to switch and explored Bear Blog along the way before landing on Hugo + the Bear Blog template.
@@ -39,7 +39,7 @@ Hugo is a static site generator written in Go. It is praised for its performance
 Hugo was another blogging method I saw recommended and [discussed](https://news.ycombinator.com/item?id=30527884) [on](https://news.ycombinator.com/item?id=30396935) [Hacker News](https://news.ycombinator.com/item?id=12672394) often, but it was daunting since I saw a lot of config files and scary Go syntax that I wouldn't have to encounter with Hashnode and Bear Blog. 
 
 # Why Move Off Hashnode? Why Hugo? Why Not Bear Blog?
-I put a decent amount of effort into searching for a platform before writing [my first blog](https://noah-ford.com/cracker-barrel-whole-foods-presidential-2020/), but my motivations were different then, as I was looking for a job. I wanted a place to quickly create a blog that rendered markdown, brought attention to myself, and that looked good to a potential future employer. Hashnode is still one of the best places I know of to satisfy these motivations for tech blogs. 
+I put a decent amount of effort into searching for a platform before writing [my first blog](/blog/cracker-barrel-whole-foods-presidential-2020/), but my motivations were different then, as I was looking for a job. I wanted a place to quickly create a blog that rendered markdown, brought attention to myself, and that looked good to a potential future employer. Hashnode is still one of the best places I know of to satisfy these motivations for tech blogs. 
 
 I currently love my job ([we're hiring](https://jobs.lever.co/onaroll), [let's chat](https://calendly.com/noah_ford/30-minute-meeting)) and thus don't have the same motivations as before, which are currently the following:
 ## 1. I am Addicted to Finding the Next Best Tool
@@ -62,7 +62,7 @@ With the [Bear Blog Hugo template](https://github.com/janraasch/hugo-bearblog), 
 
 ## 4. I "Need" to Have My Blog Be Powered by a Git Repo
 
-The  above is the weirdest of the four reasons. Due to the insecurity that oozes when my Web Developer hat is on, I felt that for my blog to be legit it needs to be powered by a repository. It is nice that this keeps my git skills fresh since I don't/can't always use git in my day-to-day work. I could have a repo that houses all the queries I've written at work, but it isn't _necessary_ for the queries to run, as opposed to someone who creates production software in a collaborative environment.
+The above is the weirdest of the four reasons. Due to the insecurity that oozes when my Web Developer hat is on, I felt that for my blog to be legit it needs to be powered by a repository. It is nice that this keeps my git skills fresh since I don't/can't always use git in my day-to-day work. I could have a repo that houses all the queries I've written at work, but it isn't _necessary_ for the queries to run, as opposed to someone who creates production software in a collaborative environment.
 
 # Parting Thoughts
 If it isn't clear from the post, I think Hashnode and Bear Blog are better dev-blog platforms for most cases due to their easy-to-setup and good-looking blogs. 
