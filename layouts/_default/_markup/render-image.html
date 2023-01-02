@@ -1,9 +1,9 @@
 {{ $image := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) }}
 {{ if .Title }}
 <figure>
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy"  style="max-height: 500px; height: 100%;display: block;margin-left: auto; margin-right: auto;"/>
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy"  style="max-height: 500px; width: 100%;display: block;margin-left: auto; margin-right: auto;"/>
   <figcaption style="font-size: 16px; text-align: center; font-weight: normal;"><i>{{ .Title }}</i></figcaption></figcaption>
 </figure>
 {{ else }}
-<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy"  style="max-height: 500px; height: 100%;display: block;margin-left: auto; margin-right: auto;"/>
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy"  style="max-height: 500px; width: 100%;display: block;margin-left: auto; margin-right: auto;"/>
 {{ end }}
