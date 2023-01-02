@@ -8,7 +8,6 @@ tags: [
 ]
 slug: "sup"
 cover:
-    image:  "/climate.jpeg"
     alt: "forest and fog"
     relative: true
 ---
