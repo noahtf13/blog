@@ -12,7 +12,7 @@ cover:
     alt: "police lights"
     relative: true
 ---
-*This is the first post in my Georgia Tech [series](/blog/georgiatech), which is where I will post the blog-like assignments that I had to write as a part of my coursework. Much of the technical work of the original writeup has been removed to better cater to a broader audience.*
+*This is the first post in my Georgia Tech [series](/tags/georgiatech), which is where I will post the blog-like assignments that I had to write as a part of my coursework. Much of the technical work of the original writeup has been removed to better cater to a broader audience.*
 ***
 
 # Introduction
