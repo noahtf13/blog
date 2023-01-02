@@ -69,3 +69,4 @@ Additonal info on Carbon Taxes:
 - [Basic Explainer from the Citizens' Climate Lobby](https://citizensclimatelobby.org/basics-carbon-fee-dividend/)
 - [Detailed Wikipedia Page](https://en.wikipedia.org/wiki/Carbon_fee_and_dividend.)
 
+[Discuss on Hacker News](https://news.ycombinator.com/item?id=34221170)
