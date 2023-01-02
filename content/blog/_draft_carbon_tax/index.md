@@ -34,6 +34,12 @@ I tested it, and it only took 3 minutes and 15 seconds.
 Even when a nation puts a price on carbon it is often too low compared to the true [externalities](https://www.investopedia.com/terms/e/externality.asp) caused by pollution, often called the [social cost of carbon](https://www.rff.org/publications/explainers/social-cost-carbon-101/). 
 ### Some Options
 The cost varies greatly, but most of us tax ourselves at $0/tCO2, so picking any number is a step in the right direction.
+
+| Estimate                  | Social Cost per Metric Ton | Source                                                                                                                                                                                          |
+|---------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Previous Federal Estimate | $51               | [Energy Wire](https://www.eenews.net/articles/epa-floats-sharply-increased-social-cost-of-carbon/#:~:text=That%20document%20estimates%20the%20social,future%20impacts%20of%20climate%20change.) |
+| EPA's New Proposal        | $190              | [Energy Wire](https://www.eenews.net/articles/epa-floats-sharply-increased-social-cost-of-carbon/#:~:text=That%20document%20estimates%20the%20social,future%20impacts%20of%20climate%20change.) |
+| RFF + UC Berkely          | \\$44-413 ("Preferred Mean": \\$185)          | [Nature](https://www.nature.com/articles/s41586-022-05224-9)                                                                                                                                    |
 ## 3. Optional: If applicable, subtract your state's current price of carbon
 [Twelve states have some sort of carbon pricing](https://www.c2es.org/document/us-state-carbon-pricing-policies/#:~:text=Those%20states%20are%20California%20and,Greenhouse%20Gas%20Initiative%20(RGGI).) but it can be difficult to discern what the price of carbon is, especially with states that use cap and trade instead of a true carbon tax. I was unable to find a reliable source that provided state-by-state prices on carbon. 
 ## 4. Calculate your tax for the previous year
