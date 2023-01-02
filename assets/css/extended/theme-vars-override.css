@@ -1,0 +1,8 @@
+:root {
+    --primary: black;
+    --content: rgb(60, 60, 60);
+}
+
+.dark {
+    --primary: rgb(225, 225, 225);
+}
