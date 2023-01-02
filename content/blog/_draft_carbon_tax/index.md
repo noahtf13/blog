@@ -6,7 +6,6 @@ tags: [
     "ClimateChange",
     "Musings"
 ]
-slug: "sup"
 cover:
     alt: "forest and fog"
     relative: true
@@ -28,8 +27,7 @@ So while a bill like the Inflation Reduction Act *should* be celebrated for its 
 
 # How?
 ## 1. Fill out this [3-minute survery by CarboTax](http://carbotax.org/) and make note of the final number
-I tested it, and it only took 3 minutes and 15 seconds! 
-<iframe src='http://carbotax.org' width=100% height=650px></iframe>
+I tested it, and it only took 3 minutes and 15 seconds!
 
 ## 2. Pick a social cost of carbon
 Even when a nation puts a price on carbon it is often too low compared to the true [externalities](https://www.investopedia.com/terms/e/externality.asp) caused by pollution, often called the [social cost of carbon](https://www.rff.org/publications/explainers/social-cost-carbon-101/). 
