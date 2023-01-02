@@ -119,10 +119,6 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: about
-      name: About Me
-      url: /about/
-      weight: 1
     - identifier: search
       name: Search
       url: /search/
