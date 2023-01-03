@@ -1,6 +1,6 @@
 ---
 title: "About Me" # in any language you want
-layout: "about" # is necessary
+layout: "basic" # is necessary
 url: "/about"
 summary: "About Me"
 draft: true
