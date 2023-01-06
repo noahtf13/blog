@@ -7,9 +7,8 @@ tags: [
     "Musings"
 ]
 cover:
-    image: '/forest.jpeg'
+    image: '/blog/carbon_tax/img/forest.jpeg'
     alt: "forest and fog"
-    relative: true
 ---
 
 # What do you mean "carbon tax yourself"?
@@ -70,3 +69,4 @@ Additonal info on Carbon Taxes:
 - [Detailed Wikipedia Page](https://en.wikipedia.org/wiki/Carbon_fee_and_dividend.)
 
 [Discuss on Hacker News](https://news.ycombinator.com/item?id=34221170)
+[Discuss on Mastodon](https://mas.to/@noah_ford/109640164728723330)
