@@ -52,8 +52,8 @@ params:
 
   label:
     text: "Noah's Blog"
-    # icon: ""
-    iconHeight: 30
+    icon: "images/icon.png"
+    iconHeight: 50
 
   # profile-mode
   profileMode:
