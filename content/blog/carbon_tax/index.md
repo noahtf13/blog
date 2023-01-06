@@ -9,7 +9,6 @@ tags: [
 cover:
     image: '/images/forest.jpeg'
     alt: "forest and fog"
-    relative: true
 ---
 
 # What do you mean "carbon tax yourself"?
