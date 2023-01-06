@@ -17,7 +17,6 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Noah's Blog
   description: "Musings and Data Stories"
   keywords: [Data Science, Musings, Blog]
   # author: "Noah Ford"
