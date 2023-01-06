@@ -7,7 +7,7 @@ tags: [
     "Musings"
 ]
 cover:
-    image: '/images/forest.jpeg'
+    image: '/blog/carbon_tax/img/forest.jpeg'
     alt: "forest and fog"
 ---
 
