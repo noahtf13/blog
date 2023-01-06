@@ -21,7 +21,7 @@ params:
   description: "Musings and Data Stories"
   keywords: [Data Science, Musings, Blog]
   # author: "Noah Ford"
-  images: ["/images/hugo-blog-og.jpeg"]
+  images: ["/images/pothos_unsplash.jpeg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
