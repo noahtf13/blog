@@ -5,7 +5,7 @@ description = "Election predictions based on proximity to a Whole Foods and Crac
 tags = [
     "DataStories"
 ]
-slug = 'cracker-barrel-whole-foods-presidential-2020'
+url = '/cracker-barrel-whole-foods-presidential-2020'
 +++
 # Background
 ## Hasn't this been done before?
