@@ -10,6 +10,17 @@ cover:
     image: '/blog/carbon_tax/img/forest.jpeg'
     alt: "forest and fog"
 ---
+**_Update, 2023-01-06:_**
+
+Thank you to [u/PlatosCaveSlave on Reddit](https://www.reddit.com/r/CitizensClimateLobby/comments/104k4m2/comment/j36wwzr/?utm_source=share&utm_medium=web2x&context=3) for the great point about the affordability of this method of carbon "taxing":
+
+> While that's great if you are wealthy... there is co [no] way I could afford to do this. And also how about the fact the burden of responsibility here should be on huge corps to paybfornthis [pay for this]. Not everyday people.
+
+This is a method that has worked great for myself and my family's situation, but donations to climate-focused organizations are just one of the **many** ways to affect change. 
+
+Volunteering, spreading the word about the effects of climate change, and reducing your CO2 emissions can have just as large of an impact - if not more - on the future of this planet.
+
+---
 
 # What do you mean "carbon tax yourself"?
 Donating to a climate-focused organization based on an estimate of your 2022 emissions. 
