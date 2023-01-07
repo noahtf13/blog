@@ -4,7 +4,8 @@ date: "2022-12-04"
 description: "Why you should and how you can \"tax\" your 2022 emissions"
 tags: [
     "ClimateChange",
-    "Musings"
+    "Musings",
+	"Externalities"
 ]
 cover:
     image: '/blog/carbon_tax/img/forest.jpeg'
