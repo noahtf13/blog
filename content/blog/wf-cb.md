@@ -92,7 +92,7 @@ If there was a one-liner that I had to take away from this whole analysis, it wo
 
 Below is a video of an expanding radius around every Whole Foods in the US, with a color layer based on our partisan-lean calculation.
 
-<iframe src="https://player.vimeo.com/video/600306292?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1754" height="964" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Expanding Radius of Every Whole Foods + Political Lean"></iframe>
+<iframe src="https://player.vimeo.com/video/600306292?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1754" height="964" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Expanding Radius of Every Whole Foods + Political Lean" style="margin: 0; padding: 0; display: block;"></iframe>
 
 While Dave Wasserman's hypothesis has been confirmed, what about the bi-variate relationship? What happens if I live next door to Whole Foods but 150 miles away from Cracker Barrel? Using the graph above, it would tell you there is either an 85% chance or a 25% chance that my area is majority Democratic, which is not exactly useful...
 
