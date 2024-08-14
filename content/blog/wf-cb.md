@@ -187,10 +187,6 @@ Apparently, blogs should be 1500-2000 words, so I should start wrapping this up,
 
 With that, thank you for reading! I'd love to hear more from you in the comments. If you feel inclined, like/retweet my [tweet](https://twitter.com/noahtford/status/1435699330720141324) tagging Dave Wasserman below.
 
-Also let me know what I should blog about next below:
-
-<iframe src="https://strawpoll.com/embed/ak8h4vp6q" scrolling="yes" style="width: 100%; height:400px;" frameborder="0" ></iframe>
-
 Sources:
 
 - [County Centroids](https://en.wikipedia.org/wiki/User:Michael_J/County_table)
