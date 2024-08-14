@@ -79,10 +79,10 @@ So what did we find? Well, we already knew from the Wasserman tweet above that t
 The differences between the solid and dotted lines are important and explained below:
 
 - Solid
- - The percent of neighborhoods this far away were **majority** Democratic. 
+  - The percent of neighborhoods this far away were **majority** Democratic. 
 - Dotted
- - What percent of voters in these neighborhoods voted Democratic. 
- - What Wasserman used in his analysis, but with counties instead of neighborhood-sized areas.
+  - What percent of voters in these neighborhoods voted Democratic. 
+  - What Wasserman used in his analysis, but with counties instead of neighborhood-sized areas.
 
 So for example, neighborhoods 20 miles away from WF are majority democratic ~72% of the time. For the other statistic, in an average neighborhood 20 miles away from WF, ~57% of the two-party voters voted Democrat. See the difference?
 
@@ -92,7 +92,8 @@ If there was a one-liner that I had to take away from this whole analysis, it wo
 
 Below is a video of an expanding radius around every Whole Foods in the US, with a color layer based on our partisan-lean calculation.
 
-<iframe src="https://player.vimeo.com/video/600306292?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1754" height="964" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Expanding Radius of Every Whole Foods + Political Lean" style="margin: 0; padding: 0; display: block;"></iframe>
+{{< vimeo 600306292 >}}
+
 
 While Dave Wasserman's hypothesis has been confirmed, what about the bi-variate relationship? What happens if I live next door to Whole Foods but 150 miles away from Cracker Barrel? Using the graph above, it would tell you there is either an 85% chance or a 25% chance that my area is majority Democratic, which is not exactly useful...
 
@@ -105,9 +106,9 @@ For this reason, I plotted the bi-variate relationship for the two mentioned sta
 Again the distinction between the two stats:
 
 - Top
- - % of areas that voted majority Democratic
+  - % of areas that voted majority Democratic
 - Bottom 
- - % of Voters within the area that voted Democratic
+  - % of Voters within the area that voted Democratic
 
 Right away we see a strong correlation, and there is a border of moderation (50/50 Dem/Rep split) when the ratio between Whole Foods and Cracker Barrel distance is 0.65, or in other words a line at Y = 0.65X in both graphs. So on your next date, if you want a politically moderate significant other, make sure to ask them right away:
 
